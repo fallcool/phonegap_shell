@@ -7,7 +7,7 @@
     <!-- 'Id' is your app's unique namespace -->
     <!-- 'versionCode' is optional and Android only -->
 
-    <name>骏马客运持续培训系统</name>
+    <name>骏马客运</name>
 
     <description>
         骏马客运持续培训系统
@@ -18,10 +18,7 @@
     </author>
 	
 	<!-- Define the main entry-point to the application -->
-	<content src="index.html" />
-
-    <!-- The platforms to build for. Only build what you want to target! -->
-    <gap:platform name="ios" />
+	<content src="http://junma.cnhost.gougu.com" />
 	<gap:platform name="android" />
 	<gap:platform name="winphone" />
 	
