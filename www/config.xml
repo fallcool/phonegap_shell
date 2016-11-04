@@ -19,12 +19,16 @@
 	
 	<!-- Define the main entry-point to the application -->
 	<content src="http://junma.cnhost.gougu.com" />
+
+    <!-- The platforms to build for. Only build what you want to target! -->
+    <gap:platform name="ios" />
 	<gap:platform name="android" />
 	<gap:platform name="winphone" />
 	
 	<!-- Build preferences for each platform. Too many to list here, see online PhoneGap docs for more. -->
 	<preference name='phonegap-version' value='cli-6.3.0' /> <!-- Version of PhoneGap to use -->
 	<!-- How long to display a splash screen on app open (in milliseconds) -->
+
 	<preference name="stay-in-webview" value="true" />
 	<!-- Icons for iOS 7.0+, Android, Windows Phone -->
 	<icon src="icon.png" />  <!-- Icon in the root directory is always required, all others optional -->
